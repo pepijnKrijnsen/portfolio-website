@@ -1,0 +1,16 @@
+body {
+	width: 100%;
+	background-color: #242424;
+}
+
+#column {
+	margin: 0 auto;
+	margin-top: 220px;
+	width: 62%;
+}
+
+#splashtext, #splashtext a {
+	font-family: garamond, serif;
+	font-size: 36pt;
+	color: white;
+}
