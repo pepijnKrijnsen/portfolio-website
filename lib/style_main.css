@@ -1,0 +1,43 @@
+body {
+	width: 100%;
+	background-color: #242424;
+}
+
+.toppad {
+  width: 100%;
+  height:10%;
+}
+
+.leftpad {
+  float: left;
+  width: 17%;
+  height: 100%;
+}
+
+.column {
+  float: left;
+  width: 62%;
+}
+
+.featured {
+  width: 100%;
+}
+
+h1, h1 a {
+  font-family: ;
+  font-size:32pt;
+  color:white;
+}
+
+#splashtext, #splashtext a {
+  font-family: verdana, sans-serif;
+  font-size: 23pt;
+  color: white;
+  line-height:140%;
+}
+
+.text {
+  font-family: verdana, sans-serif;
+  font-size: 13pt;
+  color: white;
+}
