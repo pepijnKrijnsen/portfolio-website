@@ -85,3 +85,26 @@ h1, h1 a {
   font-size: 13pt;
   color: white;
 }
+
+@media only screen and (max-width: 1000px) {
+	.leftpad {
+		display: none;
+	}
+
+	.toppad {
+		display: none;
+	}
+
+	.column {
+		width: 72%;
+	}
+
+	.sidebar {
+		width: 24%;
+		min-width: 200px;
+	}
+
+	.sbtext {
+		margin-bottom: 24px;
+	}
+}
