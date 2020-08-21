@@ -1,0 +1,39 @@
+**** BUG TRACKER ****
+
+A fun, challenging, versatile, useful app for recording and tracking bugs and
+feature requests.
+
+VERSION 0.1
+A CLI interface with the following features:
+- Create a new bug or feature request (bofr)
+- Link the bofr to a project - either choose from a list or create a new one
+  (i.e. the bofr has an attribute called 'Project' that takes the name of
+  a project as its value)
+- Bofr is only editable by developer - dev and submitted communicate via email
+  if necessary
+- Bofr must have a status; 
+    - new (just submitted, not claimed by any developer yet)
+    - not accepted (considered by the dev team, found not valid or feasible)
+    - assigned (to a dev)
+    - request clarification (sent back to the submitter)
+    - scheduled (assigned a specific resolution date, typically aligned with
+      a dot release)
+    - closed (bug squashed, feature implemented)
+
+
+VERSION 1.0
+A web app with the following features:
+- As above;
+- Authorisation and authentication of users: devs and users can use the same
+  app
+- Users can upvote BOFRs they consider urgent or important
+- Submitter views:
+  - bofr submitted by me
+  - bofr submitted for given app
+- Dev views:
+  - bofr assigned to me
+  - bofr for given app
+
+Since it's a portfolio project I will try and incorporate an external DB, but
+the 0.1 version won't need that. (The 1.0 version really doesn't need it either
+but it shows that I know how to use databases.)
