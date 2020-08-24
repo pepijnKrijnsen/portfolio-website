@@ -51,20 +51,25 @@ img {
   float: left;
 }
 
-h2, h2 a {
-  margin-bottom: 6px;
-  font-family: inconsolata, monospace;
-  font-size:17pt;
-  color: white;
-  font-style: italic;
-}
-
-.sbtext, .sbtext a {
+.sidebar-elements {
   margin: 0 0 64px 0;
   font-family: verdana, sans-serif;
   font-size: 13pt;
   color: white;
   line-height: 150%;
+  width: 100%;
+}
+
+.sidebar-elements a {
+	color: white;
+}
+
+h2, h2 a {
+  margin-bottom: 6px;
+  font-family: inconsolata, monospace;
+  font-size: 17pt;
+  color: white;
+  font-style: italic;
 }
 
 h1, h1 a {
@@ -84,4 +89,34 @@ h1, h1 a {
   font-family: verdana, sans-serif;
   font-size: 13pt;
   color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+	.leftpad {
+		display: none;
+	}
+
+	.toppad {
+		display: none;
+	}
+
+	.column {
+		width: 100%;
+	}
+
+	.sidebar {
+		width: 100%;
+		padding-left: 7%;
+		min-width: 200px;
+	}
+
+	.sidebar-elements {
+		width: 45%;
+		height: 150px;
+		float: left;
+	}
+
+	.sbtext {
+		margin-bottom: 24px;
+	}
 }
