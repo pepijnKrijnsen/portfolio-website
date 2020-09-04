@@ -19,6 +19,7 @@ html, body {
   float: left;
   width: 62%;
   margin-right: 18px;
+  padding: 0 12px;
 }
 
 .sidebar {
@@ -38,7 +39,7 @@ html, body {
 
 h1, h1 a {
   font-family: monospace;
-  font-size: 32pt;
+  font-size: 30pt;
   color: white;
 }
 
@@ -50,10 +51,16 @@ h2, h2 a {
   font-style: italic;
 }
 
+h3, h3 a {
+  font-family: monospace;
+  font-size: 15pt;
+}
+
 p {
 font-family: verdana, sans-serif;
 font-size: 13pt;
 color: white;
+text-align: justify;
 }
 
 @media only screen and (max-width: 1000px) {
