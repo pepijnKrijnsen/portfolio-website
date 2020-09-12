@@ -5,3 +5,13 @@
 h1, h3, p {
 	color: black;
 }
+
+h3 {
+	margin-top:48px;
+}
+
+p {
+	line-height: 175%;
+	margin-bottom: 22px;
+	text-align: left;
+}
