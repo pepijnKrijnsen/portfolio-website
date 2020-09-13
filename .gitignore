@@ -1,2 +1,4 @@
-*.swp
 *.un~
+*.swp
+__pycache*
+*.nopy
